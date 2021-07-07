@@ -26,5 +26,8 @@
     "eslint-plugin-promise": "5.1.0",
     "husky": "7.0.1",
     "semantic-release": "^17.4.4"
+  },
+  "release": {
+    "branches": ["main"]
   }
 }
