@@ -1,7 +1,6 @@
 {
   "name": "@camilopaez/create-components",
   "version": "0.0.0-development",
-  "private": "false",
   "description": "",
   "main": "index.js",
   "bin": {
@@ -10,6 +9,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "semantic-release": "semantic-release"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "keywords": [],
   "author": "Camilo Paez <camilopaez.dev@gmail.com>",
